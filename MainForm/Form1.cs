@@ -14,6 +14,7 @@ namespace MainForm
 {
     public partial class Form1 : Form
     {
+        Repository Repo = new Repository();
         public Form1()
         {
             InitializeComponent();

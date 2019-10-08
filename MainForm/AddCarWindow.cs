@@ -14,6 +14,7 @@ namespace MainForm
 {
     public partial class AddCarWindow : Form
     {
+        Repository Repo = new Repository();
         public AddCarWindow()
         {
             InitializeComponent();
@@ -27,8 +28,8 @@ namespace MainForm
 
         public void button2_Click(object sender, EventArgs e)
         {
-            Repository Repo = new Repository();
-
+            Car c = new Car() { Brand = textBox1.Text, Model = textBox2.Text };
+            Repo.Save(c);
         }
     }
 }
