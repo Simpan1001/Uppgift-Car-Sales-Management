@@ -10,18 +10,17 @@ using System.Windows.Forms;
 
 namespace MainForm
 {
-    public partial class Form1 : Form
+    public partial class AddCarWindow : Form
     {
-        public Form1()
+        public AddCarWindow()
         {
             InitializeComponent();
-            button1.Text = "Add Car";
+            button1.Text = "Close";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AddCarWindow Window1 = new AddCarWindow();
-            Window1.Show();
+            this.Close();
         }
     }
 }
