@@ -1,0 +1,13 @@
+1.
+Vi går tillbaka till vår bilhandlare. Hen vill ha ett verktygsstöd (program) för att hantera inköp av nya bilar,
+försäljning och marknadsföring av bilar. Fundera fritt på hur du beskriver domänmodellen och skriv ned den. Du letar efter substantiv, verb och attribut.
+
+[GUI] - Inköp, utsäljning, förvar
+GUI1 - Huvudmeny - leder ut till alla alternativ
+GUI2 - Inköp av bilar - Användaren lägger till information om en bil hen vill lägga till i lager
+GUI3 - Försäljning - Låter användaren köpa en bil på lagret genom att ange dess uppgifter
+GUI4 - Listan - Visar lagret
+
+Class Car - Object som ska finnas med i en lista - objekten ska ha olika egenskaper som märke och model
+Class Repository - Gör en public lista som är åtkomlig från alla Window.Forms
+
