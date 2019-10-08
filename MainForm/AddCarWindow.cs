@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CarObject;
+using RepositoryForm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,9 +20,15 @@ namespace MainForm
             button1.Text = "Close";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        public void button2_Click(object sender, EventArgs e)
+        {
+            Repository Repo = new Repository();
+
         }
     }
 }

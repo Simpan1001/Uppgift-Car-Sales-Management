@@ -88,5 +88,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarObject\CarForm.csproj">
+      <Project>{b0fcd1f2-bb66-4887-be38-64d458580349}</Project>
+      <Name>CarForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\RepositoryForm.csproj">
+      <Project>{910f022d-e0ef-46f2-a824-56de57a93fc4}</Project>
+      <Name>RepositoryForm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

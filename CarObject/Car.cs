@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CarObject
 {
-    public class Class1
+    public class Car
     {
+        public string Brand { get; set; }
+        public string Model { get; set; }
     }
 }

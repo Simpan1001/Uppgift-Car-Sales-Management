@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RepositoryForm;
+using CarObject;
 
 namespace MainForm
 {
@@ -18,7 +20,7 @@ namespace MainForm
             button1.Text = "Add Car";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             AddCarWindow Window1 = new AddCarWindow();
             Window1.Show();
