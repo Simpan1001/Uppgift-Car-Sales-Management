@@ -42,6 +42,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -126,7 +127,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(280, 110);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.Size = new System.Drawing.Size(103, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "Horsepower (m/s^2)";
             // 
@@ -135,7 +136,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(280, 158);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 13);
+            this.label6.Size = new System.Drawing.Size(115, 13);
             this.label6.TabIndex = 10;
             this.label6.Text = "Traveled distance (km)";
             // 
@@ -160,11 +161,21 @@
             this.textBox6.Size = new System.Drawing.Size(212, 20);
             this.textBox6.TabIndex = 13;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(180, 25);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(169, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Register your car into storage here";
+            // 
             // AddCarWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 319);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -202,5 +213,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label7;
     }
 }
