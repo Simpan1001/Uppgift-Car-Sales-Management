@@ -30,6 +30,9 @@ namespace MainForm
         {
             Car c = new Car() { Brand = textBox1.Text, Model = textBox2.Text };
             Repo.Save(c);
+            //textBox1.Clear();
+            //textBox2.Clear();
+            MessageBox.Show(string.Format("There are " + Repo.Count() + " cars in storage"));
         }
     }
 }

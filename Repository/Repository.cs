@@ -19,9 +19,19 @@ namespace RepositoryForm
 
             SqlCommand cm = new SqlCommand("INSERT INTO CarProperties(Brand, Model) VALUES ('" + c.Brand + "', '" + c.Model + "');");
             cm.Connection = connect;
-            cm.ExecuteNonQuery();
+            //cm.ExecuteNonQuery();
 
             connect.Close();
+        }
+        public int Count() {
+
+            connect.Open();
+            SqlCommand cm = new SqlCommand("SELECT COUNT(Id) FROM (CarProperties);");
+            cm.Connection = connect;
+            //cm.ExecuteNonQuery();
+            int a = int.Parse(cm.ExecuteScalar().ToString());
+            connect.Close();
+            return a;
         }
     }
 }
