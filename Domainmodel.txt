@@ -16,7 +16,7 @@ Programmet ska ladda in en startup Form. Därifrån väljer man vad man vill göra i
 inhyrningen. Där lämnar man in en bil till lagret. Då måste man knappa in alla egenskaper som bilen har. När man klickar på 'Add' läggs bilen till i
 Listan. 
 En annan knapp i programmet leder till uthyrningen. Där ska man kunna skriva in en bil man söker efter och ta ut den ur
-lagret och Listan. 
+lagret och Listan. Det är ungefär som inhyrningen fast tvärt om. 
 En tredje knapp ska leda till ett fönster där man kan se Listan av bilar som finns i förvar. Klickar man på en bil 
-dyker ett pop-up-fönster upp som visar bilens egenskaper. 
+dyker ett pop-up-fönster upp som visar bilens egenskaper. Detta är marknadsföringsfönstret. 
 
